@@ -4,16 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "script-test": "echo hi",
     "lint": "eslint . --ext .ts,.tsx",
     "prettier": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,scss,md}\"",
     "test": "jest --coverage --passWithNoTests",
     "prepare": "husky"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run script-test && npm run lint && npm test"
-    }
   },
   "author": "",
   "license": "ISC",
