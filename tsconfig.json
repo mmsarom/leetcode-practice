@@ -9,5 +9,5 @@
     },
     "include": ["src"],                       // Specify which paths should be included
     "exclude": ["node_modules", "dist"]       // Specify which paths should be excluded
-  }
+}
   
