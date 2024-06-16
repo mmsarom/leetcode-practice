@@ -2,7 +2,8 @@
  * @param {string} s
  * @return {number}
  */
- var lengthOfLongestSubstring = function(s) {
+/* JS version to refactor to TS
+var lengthOfLongestSubstring = function(s) {
     let slen = s.length;
     let max = 0;
     
@@ -24,4 +25,4 @@
     }
     return max;
 };
-// NOTE this couldbe better solved with a HashMap (hella a lot faster)
+*/
